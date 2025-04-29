@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ModulKu - Modul</title>
+  <link rel="stylesheet" href="style.css">
+  <script type="module" src="script.js"></script>
+</head>
+<body onload="checkLogin(); loadModuls();">
+  <header>
+    <nav class="container">
+      <div class="logo">ModulKu</div>
+      <ul class="nav-links">
+        <li><a href="/index.html">Beranda</a></li>
+        <li><a href="#" onclick="logout()">Logout</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container">
+    <h1>Upload atau Download Modul</h1>
+
+    <input type="file" id="fileInput">
+    <button onclick="uploadFile()" class="cta-button">Upload Modul</button>
+
+    <h2>Daftar Modul</h2>
+    <div id="modulList"></div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 ModulKu</p>
+  </footer>
+</body>
+</html>

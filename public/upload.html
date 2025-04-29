@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Upload Modul - ModulKu</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <h1>Upload Modul</h1>
+  </header>
+
+  <form id="uploadForm">
+    <label>Judul Modul:</label>
+    <input type="text" id="modul-title" required><br>
+
+    <label>File PDF:</label>
+    <input type="file" id="modul-pdf" accept=".pdf" required><br>
+
+    <label>Link Video YouTube (Opsional):</label>
+    <input type="url" id="youtube-link"><br>
+
+    <button type="submit">Upload</button>
+  </form>
+
+  <script src="js/upload.js"></script>
+</body>
+</html>

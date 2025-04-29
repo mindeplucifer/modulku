@@ -1,0 +1,67 @@
+/* style.css */
+
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+header {
+  background-color: #0066cc;
+  color: white;
+  padding: 10px 0;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+}
+
+.main {
+  padding: 40px 0;
+}
+
+h1, h2 {
+  color: #333;
+}
+
+.cta-button {
+  background-color: #0066cc;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  margin-top: 20px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.cta-button:hover {
+  background-color: #0052a3;
+}
+
+footer {
+  background-color: #f1f1f1;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 30px;
+}
+
+#modulList a {
+  display: block;
+  margin-bottom: 5px;
+}
